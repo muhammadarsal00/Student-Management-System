@@ -1,0 +1,22 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Django migrations
+*/migrations/*
+!*/migrations/__init__.py
+
+# Database files
+db.sqlite3
+
+# Static files
+/static/
+media/
+
+# Virtual environment
+venv/
+env/
+.env
+
+# Other sensitive files
+*.log
